@@ -20,23 +20,8 @@ Dengan optimasi tersebut, pengambilan data relasi menjadi lebih efisien dan juml
 * Eager Loading
 * Nested Eager Loading
 
-## Bukti Optimasi
 
-### Lazy Loading
 
-Pada penggunaan Lazy Loading, data relasi dipanggil ketika data tersebut dibutuhkan. Jika terdapat banyak data dengan relasi, kondisi ini dapat menyebabkan **N+1 Query Problem** dan menghasilkan jumlah query yang sangat banyak.
-
-**Screenshot Lazy Loading:**
-
-![Screenshot Lazy Loading](screenshots/lazy-loading.png)
-
-### Eager Loading
-
-Setelah menggunakan Eager Loading dan Nested Eager Loading, data relasi diambil terlebih dahulu sehingga jumlah query database dapat ditekan.
-
-**Screenshot Eager Loading:**
-
-![Screenshot Eager Loading](screenshots/eager-loading.png)
 
 ## Hasil Optimasi
 
