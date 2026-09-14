@@ -1,7 +1,7 @@
 # Sistem Katering Nusantara (Advanced Eager Loading)
 
 **Nama:** Salman
-**Kelas:** [Isi Kelas]
+**Kelas:** XI 1
 
 ## Deskripsi
 
